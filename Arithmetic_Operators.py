@@ -1,0 +1,10 @@
+a=input("Enter first number : ")
+b=input("Enter second number : ")
+print(a+b)
+a=int(input("Enter first number : "))
+b=int(input("Enter second number : "))
+print("Sum is ",a+b)
+a=int(input("enter an integer number : "))
+b=float(input("enter a float number :"))
+sum=a + b
+print(sum)
