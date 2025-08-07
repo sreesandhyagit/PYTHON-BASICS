@@ -7,4 +7,4 @@ print("Sum is ",a+b)
 a=int(input("enter an integer number : "))
 b=float(input("enter a float number :"))
 sum=a + b
-print(sum)
+print("sum =", sum)
