@@ -1,4 +1,4 @@
-# Example
+"""# Example
 a = 10
 age = 41
 name = "sreesandhya"
@@ -7,9 +7,10 @@ print("a")
 print(a)
 
 """
+"""
 Numbers
 
-"""
+
 # int
 
 age = 27
@@ -31,20 +32,22 @@ print(type(my_list))
 print(my_list[2])
 my_list[2]=11
 print(my_list[2])
-
+"""
+"""
 # Tuple - Immutable ,ordered, ()
 
 my_tuple=(1,"hai",2,2.3)
 print(my_tuple[1])
+"""
 """my_tuple[1]="hello"
 print(my_tuple[1])"""
-
+"""
 # Set - Unordered ,{}
 
 s={23,"sree","python",34.2,23,2,"Sree",23}
 print(s)
 print(type(s))
-
+"""
 # Dictionary - key : value pairs {}
 
 student = {'name':"Rohith","age":23,4:"python","hobbies":["coding","cycling","football"]}
