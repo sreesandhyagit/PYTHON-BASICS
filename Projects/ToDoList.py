@@ -10,7 +10,7 @@ def add_task():
     global to_do_list
     try:
         task_num=int(input("How many task you want to add : "))
-        if task_num==0:
+        if task_num<=0:
             print("\nNo task added")
         else:               
             for k in range(1,task_num+1):
