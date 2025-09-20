@@ -4,6 +4,8 @@ l=[12,7,'Sree',9] #immutable
 l2=copy.copy(l)
 print(l)
 print(l2)
+print(id(l))
+print(id(l2))
 
 print("-----------------------------------------------")
 
@@ -11,6 +13,8 @@ l=[12,7,'Sree',9] #immutable
 l2=copy.deepcopy(l)
 print(l)
 print(l2)
+print(id(l))
+print(id(l2))
 
 print("-----------------------------------------------")
 

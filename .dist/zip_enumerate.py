@@ -2,11 +2,13 @@
 l=('RAM','model','storage',7)
 k=('4GB',"Dell","512GB","Python")
 print(list(zip(l,k)))
+print()
 
 l=('RAM','model','storage',7)
 k=('4GB',"Dell","512GB","Python")
 for k,v in zip(l,k):
     print(k,v)
+print()
     
 l=('RAM','model','storage',7)
 k=('4GB',"Dell","512GB","Python")

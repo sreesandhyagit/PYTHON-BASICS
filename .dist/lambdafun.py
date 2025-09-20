@@ -22,7 +22,7 @@ def Is_Evan(num):
 for k in range(2,51):
     print(Is_Evan(k))
 """
-"""
+
 def Square(num):
     return num**2
 
@@ -57,5 +57,5 @@ print(s)
 
 # factorial
 print(reduce(lambda a,b:a*b,range(1,6)))
-"""
+
 

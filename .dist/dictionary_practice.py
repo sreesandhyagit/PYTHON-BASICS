@@ -1,5 +1,5 @@
 
-"""
+
 student={"name":'Aleena',"age":27,6:'Python'}
 print(student["name"])
 # print(student['place'])
@@ -27,7 +27,7 @@ for s in student:
 for k,v in student.items():
     print(k,v)
 
-"""
+
 l=('RAM','model','storage',7)
 laptop=dict.fromkeys(l)
 print(laptop)
@@ -36,7 +36,7 @@ l=('RAM','model','storage',7)
 k="unknown"
 laptop=dict.fromkeys(l,k)
 print(laptop)
-"""
+
 
 l=('RAM','model','storage',7)
 k=('4GB',"Dell","512GB","Python")
@@ -44,5 +44,6 @@ laptop=dict.fromkeys(l,k)
 print(laptop)
 
 
-"""
+
+
 
